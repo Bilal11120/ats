@@ -47,7 +47,6 @@
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Naming Series",
    "options": "IGP-.YYYY.-."
   },
@@ -69,6 +68,7 @@
    "fetch_if_empty": 1,
    "fieldname": "supplier",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": " Supplier",
    "mandatory_depends_on": "eval:doc.goods_received_type != 'Others';",
    "options": "Supplier"
@@ -240,7 +240,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-13 10:23:21.090760",
+ "modified": "2025-11-17 10:37:54.653689",
  "modified_by": "Administrator",
  "module": "Ats",
  "name": "Inward Gate Pass",
