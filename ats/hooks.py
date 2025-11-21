@@ -44,7 +44,8 @@ app_license = "mit"
 
 # include js in doctype views
 doctype_js = {"Sales Order" : "public/js/sales_order_custom.js",
-             "Quotation" : "public/js/quotation_custom.js"
+             "Quotation" : "public/js/quotation_custom.js",
+             "Delivery Note" : "public/js/delivery_note_custom.js"
 }
 
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
