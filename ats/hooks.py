@@ -43,8 +43,11 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_js = {"Sales Order" : "public/js/sales_order_custom.js",
+             "Quotation" : "public/js/quotation_custom.js",
+             "Delivery Note" : "public/js/delivery_note_custom.js"
+}
+
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -242,3 +245,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# -----------------------------
+# ZKTeco Attendance Integration
+# -----------------------------
+
+# Whitelisted Method (to call from API or manually)
