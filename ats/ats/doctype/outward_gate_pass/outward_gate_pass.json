@@ -11,10 +11,10 @@
   "column_break_zvmj",
   "good_dispatched_type",
   "is_return",
+  "sales_order",
   "section_break_7ofs",
   "customer",
   "customer_name",
-  "supplier",
   "amended_from",
   "delivery_note",
   "delivery_note_date",
@@ -107,12 +107,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "supplier",
-   "fieldtype": "Link",
-   "label": "Supplier",
-   "options": "Supplier"
-  },
-  {
    "fieldname": "delivery_note",
    "fieldtype": "Link",
    "label": "Delivery Note",
@@ -131,8 +125,7 @@
    "fieldname": "delivery_location",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Delivery Location",
-   "reqd": 1
+   "label": "Delivery Location"
   },
   {
    "fieldname": "posting_date",
@@ -243,13 +236,19 @@
    "fieldname": "description",
    "fieldtype": "Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-11-08 10:59:50.757170",
+ "modified": "2026-04-13 14:53:00.990871",
  "modified_by": "Administrator",
  "module": "Ats",
  "name": "Outward Gate Pass",
