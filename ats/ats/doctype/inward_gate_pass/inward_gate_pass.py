@@ -20,4 +20,4 @@ class InwardGatePass(Document):
             )
 
             if exists:
-                frappe.throw("❌ OGP already exists against this Purchase Order")
+                frappe.throw("❌ IGP already exists against this Purchase Order")
