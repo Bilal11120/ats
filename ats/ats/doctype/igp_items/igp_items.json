@@ -28,6 +28,7 @@
    "reqd": 1
   },
   {
+   "fetch_from": "item_code.item_name",
    "fieldname": "item_name",
    "fieldtype": "Data",
    "label": " Item Name"
@@ -60,7 +61,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-11-07 15:57:57.649537",
+ "modified": "2026-04-16 13:55:55.994598",
  "modified_by": "Administrator",
  "module": "Ats",
  "name": "IGP Items",
